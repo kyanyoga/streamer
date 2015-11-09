@@ -1,0 +1,1 @@
+index="twitter_sandbox" sourcetype="_json" NOT topics=NULL earliest=-1d latest=+24h | timechart count by topics{} limit=50 useother=f usenull=f
