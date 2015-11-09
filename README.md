@@ -1,5 +1,6 @@
 # streamer
-## Splunk - Twitter - Node App. Use Splunk to Visualize node generated data.
+## Splunk - Twitter - Node App. ##
+### Use Splunk to Visualize node generated data. ###
 ## Pull Tweets with Geo Info using node, twitt, twitter, redis and others
 
 # installation
