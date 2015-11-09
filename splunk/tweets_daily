@@ -1,0 +1,1 @@
+index="twitter_sandbox" sourcetype="_json" earliest=-12h latest =+12h | stats sum(linecount) as Total
