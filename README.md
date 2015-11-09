@@ -6,7 +6,7 @@
 1) Pull the repos.
 
 2) You will need a set of twitter app creditials. https://apps.twitter.com/
-update : credentials.js with you settings. 
+update : credentials.js with your settings. 
 
 3) If your testing redis.. You will need it running *somewhere*; make changes
 to rediscreds.js as needed. [fyi.. that is just a test script].
