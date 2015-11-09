@@ -1,0 +1,1 @@
+index="twitter_sandbox" sourcetype="_json" earliest=-7d latest =+24h | geostats latfield=latitude longfield=longitude count by date_hour
