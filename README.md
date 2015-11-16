@@ -1,13 +1,11 @@
 # streamer
 ## Splunk - Twitter - Node App. ##
 ### Use Splunk to Visualize node generated data. ###
-## Pull Tweets with Geo Info using node, twitt, twitter, redis and others
+*Pull Tweets with Geo Info using node, twitt, twitter, redis and others*
 
-Screen Shot: 
-![Global Tweets]([https://cloud.githubusercontent.com/assets/4219465/11185900/a11be9d8-8c44-11e5-838a-9caff3c83a40.png "Global Tweets")
+Screen Shot:
+![Global Tweets](https://cloud.githubusercontent.com/assets/4219465/11185900/a11be9d8-8c44-11e5-838a-9caff3c83a40.png)
 
-
-[https://cloud.githubusercontent.com/assets/4219465/11185900/a11be9d8-8c44-11e5-838a-9caff3c83a40.png]
 
 # installation
 1. Pull the repos.
