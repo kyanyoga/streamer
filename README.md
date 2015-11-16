@@ -18,23 +18,22 @@ to rediscreds.js as needed. [fyi.. that is just a test script]: You will have to
 figure out how / what you want to implement in Redis.
 
 4. Decide if you want to use a Splunk Forwarder or Stand-Alone.
-  a. Create the Index to hold your data.
-  b. Splunk Forwarder
-    I.  Configure your reciever port address.
-        sudo bin/splunk list forward-server
-        sudo bin/splunk add forward-server 10.10.10.10:9997 -auth admin:changeme 
-    II. Add Monitor (on the machine where you are runing the streamer).
-        sudo bin/splunk add monitor /locofstreamer/name_of_topic_file.json -index twitter_sandbox
+5. Create the Index to hold your data.
+6. Splunk Forwarder - Configure your reciever port address.
+        *sudo bin/splunk list forward-server*
+        *sudo bin/splunk add forward-server 10.10.10.10:9997 -auth admin:changeme*
+7. Splunk Forwarder - Add Monitor (on the machine where you are runing the streamer).
+        *sudo bin/splunk add monitor /locofstreamer/name_of_topic_file.json -index twitter_sandbox*
   
-  c. Splunk Stand - Alone
-    Use the GUI to add a directory or file Data Input.
+8.Splunk Stand - Alone
+  *Use the GUI to add a directory or file Data Input.*
  
-5. Add the splunk queries [located in splunk directory of this repos] (manually) to your splunk installation.
+9. Add the splunk queries [located in splunk directory of this repos] (manually) to your splunk installation.
 
-6. Build a Dashboard [see the sample PNG for an idea of panels and visuals].
+10. Build a Dashboard [see the sample PNG for an idea of panels and visuals].
 
-7. Start the app of your choice [app.js, appGeoTest.js ...etc]
+11. Start the app of your choice [app.js, appGeoTest.js ...etc]
 
-9. Wow your friends: Show them you Awesome Dashboard of World Wide Tweets.
+12. Wow your friends: Show them you Awesome Dashboard of World Wide Tweets.
 
 Keywords:Splunk, Node, Node.js Twitter Streamer using twit, redis and Twitter stream.
