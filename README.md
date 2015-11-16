@@ -24,10 +24,10 @@ figure out how / what you want to implement in Redis.
 7. Splunk Forwarder - Add Monitor (on the machine where you are runing the streamer).
 *sudo bin/splunk add monitor /locofstreamer/name_of_topic_file.json -index twitter_sandbox*
   
-8.Splunk Stand - Alone
+8. Splunk Stand - Alone
 *Use the GUI to add a directory or file Data Input.*
  
-9. Add the splunk queries [located in splunk directory of this repos] (manually) to your splunk installation.
+9. Add the splunk queries located in splunk directory of this repos (manually) to your splunk installation.
 
 10. Build a Dashboard [see the sample PNG for an idea of panels and visuals].
 
