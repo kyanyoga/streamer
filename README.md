@@ -33,6 +33,6 @@ figure out how / what you want to implement in Redis.
 
 11. Start the app of your choice [app.js, appGeoTest.js ...etc]
 
-12. Wow your friends: Show them you Awesome Dashboard of World Wide Tweets.
+12. Wow your friends: Show them your Awesome Dashboard of World Wide Tweets.
 
 Keywords:Splunk, Node, Node.js Twitter Streamer using twit, redis and Twitter stream.
