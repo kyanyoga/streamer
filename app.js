@@ -7,7 +7,7 @@ var rediscreds = require('./rediscreds.js');
 // redisClient.auth(rediscreds.REDIS_PRIM);
 
 // use local host or on network host
-var redisClient = redis.createClient ( 6379, '172.17.214.224');
+var redisClient = redis.createClient ( 6379, 'locahost');
 
 // select database 15 -- note there are 15 by default
 redisClient.select(15, function(error) {
