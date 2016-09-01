@@ -18,9 +18,10 @@ figure out how / what you want to implement in Redis.
 
 4. Decide if you want to use a Splunk Forwarder or Stand-Alone.
 5. Create the Index to hold your data.
-6. Splunk Forwarder - Configure your reciever port address
+6. Splunk Forwarder.
+Configure your reciever port address
 
-  $ sudo bin/splunk list forward-server
+  $ sudo bin/splunk list forward-server 
   $ sudo bin/splunk add forward-server 10.10.10.10:9997 -auth admin:changeme
   
 7. Splunk Forwarder - Add Monitor (on the machine where you are runing the streamer).
