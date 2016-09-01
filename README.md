@@ -27,7 +27,7 @@ Configure your reciever port address
   
 Add Monitor (on the machine where you are runing the streamer)
 
-    $ sudo bin/splunk add monitor /locofstreamer/name_of_topic_file.json -index twitter_sandbox*
+    $ sudo bin/splunk add monitor /locofstreamer/name_of_topic_file.json -index twitter_sandbox
   
 8. Splunk Stand - Alone
 *Use the GUI to add a directory or file Data Input.*
