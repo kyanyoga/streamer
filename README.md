@@ -17,7 +17,7 @@ to rediscreds.js as needed. [fyi.. that is just a test script]: You will have to
 figure out how / what you want to implement in Redis.
 
 4. Decide if you want to use a Splunk Forwarder or Stand-Alone.
-5. Create the Index to hold your data.
+5. Create the Index to hold your data: ie.: twitter_sandbox
 6. Splunk Forwarder.
 
 Configure your reciever port address
@@ -33,6 +33,7 @@ Add Monitor (on the machine where you are runing the streamer)
 *Use the GUI to add a directory or file Data Input.*
  
 9. Add the splunk queries located in splunk directory of this repos (manually) to your splunk installation.
+These are a series of splunk queries.  You will need to add vizi's around the result in next steps.
 
 10. Build a Dashboard [see the sample PNG for an idea of panels and visuals].
 
