@@ -38,7 +38,7 @@ These are a series of splunk queries.  You will need to add vizi's around the re
 10. Build a Dashboard [see the sample PNG for an idea of panels and visuals].
 
 #### This will start Node and output to a local file; the file will be forwarded to splunk for analysis. 
-11. Start the app appGeoTest.js:
+11. Start the app appGeoTest.js: 
 node appGeoTest.js
 
 12. Wow your friends: Show them your Awesome Dashboard of World Wide Tweets.
